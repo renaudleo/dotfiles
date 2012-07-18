@@ -1,4 +1,6 @@
-dotfiles
+Dotfiles
 ========
 
-My personal dotfiles
+My personal dotfiles.
+
+Rakefile from [holman](https://github.com/holman/dotfiles).
