@@ -1,0 +1,18 @@
+[user]
+	name = Léo Renaud-Allaire
+	email = leo.renaud@hooktstudios.com
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = true
+[advice]
+	statusHints = false
+[alias]
+	br = branch
+	c = commit
+	ca = commit -a -m
+	co = checkout
+	pr = pull --rebase
+	st = status -bs	
+[push]
+	default = tracking
