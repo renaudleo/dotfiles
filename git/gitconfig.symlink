@@ -12,6 +12,7 @@
 	c = commit
 	ca = commit -a -m
 	co = checkout
+	p = push
 	pr = pull --rebase
 	st = status -bs	
 [push]
