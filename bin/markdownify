@@ -1,0 +1,2 @@
+#!/bin/zsh
+textutil -convert html $1 -stdout | pandoc --strict --normalize -f html -t markdown -o $1.md
