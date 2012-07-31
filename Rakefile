@@ -33,5 +33,6 @@ task :install do
     end
     `ln -s "$PWD/#{linkable}" "#{target}"`
   end
+ `ln -s "$PWD/bin" "$HOME/bin"`
 end
 task :default => 'install'
