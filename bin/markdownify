@@ -1,2 +1,11 @@
-#!/bin/zsh
+#!/bin/sh
+#
+# Converts a document (typically a doc/docx) to markdown
+# Uses Pandoc (http://johnmacfarlane.net/pandoc)
+#
+# Usage :
+#
+#   markdownify path/to/file
+#
+
 textutil -convert html $1 -stdout | pandoc --strict --normalize -f html -t markdown -o $1.md
