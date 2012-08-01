@@ -69,7 +69,12 @@ defaults write com.apple.iTunes disablePingSidebar -bool true
 defaults write com.apple.iTunes disablePing -bool true
 
 # Make ⌘ + F focus the search input in iTunes
-defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Field" "@F"
+# Essentially, it switches the full screen shortcut with the search shortcut
+# To use these commands in another language, browse iTunes package contents,
+# open Contents/Resources/your-language.lproj/Localizable.strings, then look
+# for kMenuItemFullScreen and kHiddenMenuItemTargetSearch.
+defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Passer en mode plein écran" "@~F"
+defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Zone de recherche cible" "@F"
 
 ################################################################################
 # Mail                                                                         #
