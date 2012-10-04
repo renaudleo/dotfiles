@@ -14,6 +14,7 @@
 	co = checkout
 	p = push
 	pr = pull --rebase
-	st = status -bs	
+	st = status -bs
+	oops = reset --hard HEAD~1
 [push]
 	default = tracking
