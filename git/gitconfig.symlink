@@ -16,5 +16,6 @@
 	pr = pull --rebase
 	st = status -bs
 	oops = reset --hard HEAD~1
+	amend = commit --amend -m
 [push]
 	default = tracking
