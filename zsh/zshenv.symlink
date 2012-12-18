@@ -2,3 +2,5 @@ export PATH=$(brew --prefix php54)/bin:/usr/local/bin:/usr/local/sbin:$PATH:$HOM
 
 # Let RVM kick in
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+
+export EDITOR=subl
