@@ -9,11 +9,13 @@
 		"cache/*"
 	],
 	"font_size": 11.0,
+	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_prefixes_disable": true,
-	"hayaku_CSS_syntax_autoguess": [
-			"    selector {          ",
-			"      property: value;  ",
-			"    }                   "
+	"hayaku_CSS_syntax_autoguess":
+	[
+		"    selector {          ",
+		"      property: value",
+		"    }                   "
 	],
 	"highlight_modified_tabs": true,
 	"ignored_packages":
