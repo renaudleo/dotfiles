@@ -20,3 +20,5 @@
 	patch = add --patch
 [push]
 	default = tracking
+[rebase]
+  autosquash = true
