@@ -1,3 +1,5 @@
 [
-  { "keys": ["ctrl+="], "command": "erb" }
+  { "keys": ["ctrl+="], "command": "erb" },
+  { "keys": ["super+alt+f"], "command": "show_panel", "args": {"panel": "find"} },
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} }
 ]
