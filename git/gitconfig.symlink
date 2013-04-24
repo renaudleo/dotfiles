@@ -3,6 +3,7 @@
 	email = leo.renaud@hooktstudios.com
 [core]
 	excludesfile = ~/.gitignore
+	editor = vim
 [color]
 	ui = true
 [advice]
