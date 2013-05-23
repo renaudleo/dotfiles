@@ -44,6 +44,9 @@ chflags nohidden ~/Library
 # Disable Resume system-wide
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
+# Disable Fast User Switching in menu bar
+ defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool NO
+
 ################################################################################
 # Keyboard                                                                     #
 ################################################################################
