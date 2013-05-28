@@ -1,5 +1,12 @@
 [
   { "keys": ["ctrl+="], "command": "erb" },
   { "keys": ["super+alt+f"], "command": "show_panel", "args": {"panel": "find"} },
-  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} }
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
+  { "keys": ["shift+super+c"],
+    "command": "sublime_highlight",
+    "args": {
+      "target": "clipboard",
+      "output_type": "rtf"
+    }
+  }
 ]
