@@ -19,7 +19,7 @@
 	oops = reset --hard HEAD~1
 	amend = commit --amend -m
 	patch = add --patch
-	plog="log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s" --abbrev-commit --date=relative"
+	plog="log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[34m%an" --abbrev-commit --date=relative"
 	pop="stash pop"
 	stfu="submodule update --init --recursive"
 [push]
