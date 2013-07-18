@@ -35,7 +35,6 @@ alias nginx-restart="sudo launchctl unload -w  /System/Library/LaunchDaemons/org
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias iplocal="ipconfig getifaddr en1"
 alias myssh="cat ~/.ssh/id_rsa.pub | pbcopy; echo For England, James."
-alias gitx="open . -a 'GitX'"
 alias mou="open -a Mou"
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
