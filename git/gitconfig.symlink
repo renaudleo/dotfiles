@@ -23,6 +23,7 @@
 	pop="stash pop"
 	stfu="submodule update --init --recursive"
 	shipit="merge - --no-ff"
+	casque="stash -u"
 [push]
 	default = tracking
 [rebase]
