@@ -17,12 +17,15 @@
 	pr = pull --rebase
 	st = status -bs
 	oops = reset --hard HEAD~1
+	fuckit = reset --hard
 	amend = commit --amend -m
 	patch = add --patch
 	plog="log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[34m%an" --abbrev-commit --date=relative"
 	pop="stash pop"
 	stfu="submodule update --init --recursive"
 	shipit="merge - --no-ff"
+	dontcare="update-index --assume-unchanged"
+	care="update-index --no-assume-unchanged"
 	casque="stash -u"
 [push]
 	default = tracking
