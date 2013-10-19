@@ -47,6 +47,9 @@ defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 # Disable Fast User Switching in menu bar
  defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool NO
 
+# Disable bouncy scrolling system wide, excepting Safari :(
+ defaults write -g NSScrollViewRubberbanding -int 0
+
 ################################################################################
 # Keyboard                                                                     #
 ################################################################################
