@@ -39,3 +39,6 @@ alias mou="open -a Mou"
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias be="bundle exec"
+alias npmreset="npm cache clean ;bower cache clean; rm -rf node_modules bower_components tmp; npm install"
+export PATH="$PATH:$HOME/bin"
+export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages:$PYTHONPATH

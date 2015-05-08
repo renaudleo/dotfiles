@@ -1,4 +1,4 @@
 .DS_Store
 .sass-cache
-*.sublime-project
 *.sublime-workspace
+*.css.map

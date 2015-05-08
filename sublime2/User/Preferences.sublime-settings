@@ -2,13 +2,18 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Tomorrow-Night-Eighties.thTheme",
 	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
-		".git",
-		".sass-cache",
-		"cache/*"
+		".git"
+		,".sass-cache"
+		,"cache/*"
+		,"tmp"
+		,"dist"
+		,"node_modules"
+		,"bower_components"
 	],
-	"font_size": 11.0,
+	"font_size": 12.0,
 	"hayaku_CSS_colors_case": "lowercase",
 	"hayaku_CSS_prefixes_disable": true,
 	"hayaku_CSS_syntax_autoguess":
@@ -20,6 +25,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"GitGutter",
+		"SublimeCodeIntel",
+		"SyncedSideBar"
 	],
 	"rulers":
 	[

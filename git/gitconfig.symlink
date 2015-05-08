@@ -27,6 +27,7 @@
 	dontcare="update-index --assume-unchanged"
 	care="update-index --no-assume-unchanged"
 	casque="stash -u"
+	master="checkout master"
 [push]
 	default = tracking
 [rebase]

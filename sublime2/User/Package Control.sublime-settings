@@ -1,0 +1,32 @@
+{
+	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Ciapre Color Scheme",
+		"CoffeeScript",
+		"EditorConfig",
+		"emmet-sublime",
+		"GitGutter",
+		"Handlebars",
+		"Hayaku - tools for writing CSS faster",
+		"Jade",
+		"JSON Reindent",
+		"LESS",
+		"Package Control",
+		"PHP-Twig",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"StringEncode",
+		"SublimeCodeIntel",
+		"SublimeERB",
+		"SyncedSideBar"
+	],
+	"repositories":
+	[
+		"https://github.com/n1k0/SublimeHighlight.git",
+		"https://github.com/sergeche/emmet-sublime"
+	]
+}
